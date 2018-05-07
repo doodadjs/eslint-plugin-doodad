@@ -16,7 +16,7 @@
 const path = require("path");
 
 const lodash = require("lodash");
-const astUtils = require(path.join(require.resolve("eslint"), "..", "ast-utils"));
+const astUtils = require("eslint/lib/ast-utils");
 const createTree = require("functional-red-black-tree");
 
 //------------------------------------------------------------------------------
