@@ -1,7 +1,7 @@
 {
   "name": "@doodad-js/eslint-plugin-doodad",
   "description": "ESLINT Plugin Package for the doodad-js Project",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "homepage": "https://github.com/doodadjs/",
   "author": "Claude Petit <doodadjs@gmail.com> (https://github.com/doodadjs/)",
   "license": "Apache-2.0",
