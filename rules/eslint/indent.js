@@ -1540,8 +1540,8 @@ module.exports = {
                         }
 
                         // Get desired ident
-                        const additional = directives.length + diff;
-						const desired = offsets.getDesiredIndent(firstTokenOfLine) + ((additional > 0) && !offsets._ignoredTokens.has(firstTokenOfLine) ? offsets._indentType.repeat(additional) : "");
+                        const additional = (offsets._ignoredTokens.has(firstTokenOfLine) ? 0 : directives.length + diff);
+						const desired = offsets.getDesiredIndent(firstTokenOfLine) + (additional > 0 ? offsets._indentType.repeat(additional) : "");
 
 						// If the token matches the expected expected indentation, don't report it.
                         if (validateTokenIndent(firstTokenOfLine, desired)) {
