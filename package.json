@@ -24,7 +24,7 @@
   "scripts": {
   },
   "dependencies": {
-    "eslint": "^4.16.0"
+    "eslint": "^4.19.1"
   },
   "keywords": [
     "doodad-js",
