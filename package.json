@@ -1,7 +1,7 @@
 {
   "name": "@doodad-js/eslint-plugin-doodad",
   "description": "ESLINT Plugin Package for the doodad-js Project",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/doodadjs/",
   "author": "Claude Petit <doodadjs@gmail.com> (https://github.com/doodadjs/)",
   "license": "Apache-2.0",
@@ -9,22 +9,17 @@
     "plugins",
     "rules",
     "index.js",
-    "index.mjs",
-    "make.json",
     "LICENSE",
     "README.md",
     ".eslintignore",
     ".eslintrc.js",
     ".gitignore",
     ".npmignore",
-    ".npmrc",
-    ".travis.yml"
+    ".npmrc"
   ],
   "main": "index.js",
-  "scripts": {
-  },
   "dependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^7.6.0"
   },
   "keywords": [
     "doodad-js",
